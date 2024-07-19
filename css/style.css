@@ -57,12 +57,11 @@ body::-webkit-scrollbar-thumb {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-
-  padding: 60px 0 20px;
+  padding: 30px 0 20px;
 }
 
 .logo__img {
-  max-height: 36px;
+  max-height: 42px;
 }
 
 .info {
@@ -86,7 +85,7 @@ body::-webkit-scrollbar-thumb {
   font-style: normal;
   font-weight: 700;
   font-size: 128px;
-  line-height: 192px;
+  line-height: 104px;
   background: linear-gradient(90deg, #FF2400 0%, #FF240B 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -97,6 +96,95 @@ body::-webkit-scrollbar-thumb {
   font-size: 6em;
 }
 
+.footer {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.disclaimer {
+  position: relative;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  padding: 20px 0;
+}
+
+.email {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.email img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.email span {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.partners {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.app-links {
+  position: relative;
+  display: flex;
+  gap: 10px;
+}
+
+.info-footer {
+  width: 80%;
+}
+.copyright {
+  position: relative;
+  font-family: 'Jost', sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.button-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 75px;
+  gap: 10px;
+  background: linear-gradient(270deg, #00CFA6 0%, #006A3B 100%);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 100px;
+  font-family: "Poppins", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
 .info__subtitle {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -104,6 +192,7 @@ body::-webkit-scrollbar-thumb {
   font-size: 18px;
   line-height: 27px;
   color: #FFFFFF;
+  margin-top: 10px;
 }
 
 .btn-group {
@@ -134,19 +223,30 @@ body::-webkit-scrollbar-thumb {
 }
 
 .btn-group__item--casino {
-  background: linear-gradient(180deg, #F25FFF 0%, #8F00FF 100%);
-  box-shadow: 0px 4px 31px 1px #B800FF;
+  background: linear-gradient(270deg, #00CFA6 0%, #006A3B 100%);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 100px;
 }
 
 .btn-group__item--bets {
-  background: linear-gradient(180deg, #FF5E00 0%, #FF3F00 100%);
-  box-shadow: 0px 7px 30px 3px rgba(255, 78, 1, 0.66);
+  background: linear-gradient(270deg, #00CFA6 0%, #006A3B 100%);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 100px;
+  padding: 9px 55px;
+  gap: 10px;
+  font-family: 'Poppins', serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
 }
 
 
 .info__btn {
-
-
 }
 
 .btn:hover {
@@ -176,7 +276,7 @@ body::-webkit-scrollbar-thumb {
 
 .roulette-block__img {
   position: absolute;
-  right: -10%;
+  right: 0;
 }
 
 .roulette-block__img.mobile {
