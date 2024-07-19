@@ -94,6 +94,9 @@
   .disclaimer {
     max-width: 100%;
     text-align: justify;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 300;
   }
 
   .partners {
